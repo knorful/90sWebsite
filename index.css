@@ -1,0 +1,176 @@
+body {
+    background-image: url('https://www.google.com/logos/fnbx/fresh_prince/retro.png');
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-image: url('https://www.google.com/logos/fnbx/fresh_prince/brickwall.png');
+}
+
+main {
+    width: 70%;
+    margin: 50px auto;
+    font-size: 20px;
+    height: 100%;
+}
+
+article {
+    margin-bottom: 50px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: lightgray;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.fake-link {
+    color: rgb(67, 134, 0);
+}
+
+.gifs {
+    width: 300px;
+    height: auto;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 100px;
+    width: 95%;
+}
+
+#nav-links {
+    display: flex;
+    align-items: center;
+}
+
+#nav-links  li{
+    margin: 0 20px;
+    list-style: none;
+    color: white;
+    font-size: 2rem;
+    outline: 1px solid blue;
+    -webkit-text-stroke: 1px black;
+    background-color: rgba(240, 248, 255, 0.39);
+}
+
+#nav-links li:hover {
+    background-color: hotpink;
+    color: rgb(49, 49, 49);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#nav img {
+    height: 100px;
+    width: auto;
+    margin: 20px;
+}
+
+#photos {
+    display: flex;
+    flex-wrap: wrap;
+    border: 12px double rgb(140, 211, 156);
+    border-radius: 15px 0 0 15px;
+    padding: 20px;
+}
+
+#photos img {
+    width: 250px;
+    height: auto;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+#the-gallery {
+    font-size: 1.5rem;
+    margin: 10px 20px;
+}
+
+#gallery-photos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#gallery-photos img {
+    width: 400px;
+    height: auto;
+    margin: 20px;
+    border: 1px solid red;
+    border-radius: 2px;
+}
+
+#gallery p {
+    font-size: 1.5rem;
+}
+
+#gallery-link {
+    font-size: 1rem;
+}
+
+#landing-photo img {
+    width: 400px;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+#theme-song {
+    width: 50%;
+
+}
+
+#merchandise {
+    display: flex;
+}
+
+#merchandise section {
+    margin: 20px;
+}
+
+#out {
+    color: red;
+}
+
+#yellow {
+    color: yellowgreen;
+}
+
+#red {
+    color: red;
+}
+
+#blue {
+    color: blue;
+}
+
+#location section img,
+#location section article {
+    border: 1px solid black;
+}
+
+#location section img {
+    width: 100%;
+}
+
+#location section article {
+    padding: 10px;
+    margin: 0;
+    font-size: 1rem;
+}
